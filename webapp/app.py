@@ -10,6 +10,8 @@ def create_app():
 
     # app
     app = Flask(__name__)
+    app.config.webapp('iirs')
+
 
     # routes
     @app.route('/', methods=['POST'])
