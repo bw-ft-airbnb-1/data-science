@@ -1,6 +1,5 @@
 from webapp import app
-from flask import render_template, url_for
-from flask_jsonify import jsonify
+from flask import render_template, url_for, jsonify
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
